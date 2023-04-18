@@ -1,0 +1,50 @@
+/* .page404 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+    &-image {
+        width: 300px;
+    }
+} */
+
+    
+    .page404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    }
+    
+    .container {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .page404-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    }
+    
+    .page404-image {
+    width: 20%;
+    animation: rotate 2s linear infinite;
+    }
+    
+    @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    }
+    
+    .page404-text {
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+    } 

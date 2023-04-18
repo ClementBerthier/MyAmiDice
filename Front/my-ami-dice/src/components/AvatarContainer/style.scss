@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.avatars-container img{
+    width: 196px;
+    height: 196px;
+    padding: 1em;
+
+}
+
+.character-sheet{
+    color: white;
+    text-align: end;
+}

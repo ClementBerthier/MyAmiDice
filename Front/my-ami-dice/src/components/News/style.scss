@@ -1,0 +1,83 @@
+.news-container {
+    color: rgb(75, 67, 67);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* &-content {
+        height: 265px;
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } */
+
+    /* .article{
+        display: flex;
+        flex-direction: column;
+        
+        &-text {
+            font-size: 1.2rem;
+            padding: 2rem;
+            border: 1px solid rgb(211, 211, 211);
+            
+        }
+    } */
+}
+
+.news-container article {
+    // background : linear-gradient(75deg, rgb(7, 6, 5), rgb(247, 4, 4) 22.71%, rgb(7,6,5) 52.70%, rgb(247, 4, 4) 85%),
+    // linear-gradient(175deg,rgb(7, 6, 5), rgb(247, 4, 4) 22.71%, rgb(7,6,5) 52.70%, rgb(247, 4, 4) 85%),
+    // linear-gradient(336deg, rgb(7, 6, 5), rgb(247, 4, 4) 22.71%, rgb(7,6,5) 52.70%, rgb(247, 4, 4) 85%);
+    background-image: url("../../assets/images/parchemin.jpg");
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.news-container article h1 {
+    font-size : 2rem;
+    margin-bottom : 8px;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+
+.news-container article time {
+    font-size : 1.4rem;
+    text-decoration: underline red;
+    margin-bottom : 10px;
+}
+
+.news-container article .homeLabel {
+    margin-bottom : 10px;
+}
+
+.news-container article p {
+    text-align: center;
+    width : 90%;
+}
+
+.news-modal{
+    color: black;
+}
+
+
+
+/* .news {
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+    &-container {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */

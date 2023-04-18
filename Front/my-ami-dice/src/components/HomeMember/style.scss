@@ -1,0 +1,36 @@
+.container-member-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.characters-games-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px;
+}
+
+.characters-list-member {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.games-list-member {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.gameList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.h2-section {
+    font-size: 2rem;
+    align-self:flex-end;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,15 @@
+.textarea.ui.textarea.textarea-notes {
+    border-radius: 18px;
+    width: 200px;
+    background-color:#3865FE;
+  }
+  
+  .notes {
+    color: black;
+    min-height: 300px;
+    min-width: 200px;
+    overflow: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image: url("../../assets/images/parchemin.jpg");
+}

@@ -1,0 +1,12 @@
+.game {
+    margin: 5px 0;
+
+    &-description{
+        color: black
+    }
+}
+
+.ui.button.game-modal-button {
+    min-width: 110px;
+    min-height: 40px;
+}

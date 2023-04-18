@@ -1,0 +1,56 @@
+.gameroom {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../../assets/images/fond.jpg");
+    background-size: cover;
+
+    & .left-container {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    & .center-container {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    & .right-container {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.ui.button.home-button {
+    width: 200px;
+    margin: auto;
+}
+
+.master-img {
+    width: 150px;
+    height: 236px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+/* .containerDiceChat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerMapNote{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 2em;
+    gap: 1.5em;
+}
+ */

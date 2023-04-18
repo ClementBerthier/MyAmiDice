@@ -1,0 +1,46 @@
+
+
+.lists-container {
+    margin-top: 100px;
+}
+
+.games-users-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.admin-news-list {
+    margin: auto;
+}
+
+/* .home-admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .lists-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .games-users-list, .admin-news-list {
+    width: 45%;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .lists-container {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .games-users-list, .admin-news-list {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  } */

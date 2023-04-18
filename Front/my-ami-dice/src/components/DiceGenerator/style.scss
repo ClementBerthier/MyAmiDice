@@ -1,0 +1,16 @@
+.diceResult{
+    padding: 0.5em;
+    padding-bottom: 2em;
+    align-self: center;
+}
+
+.diceGenerator {
+    display: flex;
+    flex-direction: column;    
+}
+
+.ui.red.inverted.button.dice-button {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
