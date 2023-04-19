@@ -2,7 +2,7 @@
 
 MyAmiDice est un outil en ligne gratuit qui vous permet de jouer à des jeux de rôle papier avec d'autres joueurs à distance. Les fonctionnalités sont conçues pour vous fournir tout ce dont vous avez besoin pour jouer en ligne de manière simple et gratuite, comme si vous étiez autour d'une table.
 
-Ce repository Git re présente le travail coté back-end afin de réaliser l'API consommer par notre front
+Ce repository Git représente le travail coté front
 
 ## Fonctionnalités du projet
 
