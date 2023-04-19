@@ -35,17 +35,13 @@ Le MVP de MyAmiDice inclut les fonctionnalités suivantes :
 
 ## Technologies utilisées
 
-- Node.js
-- Express
-- bcrypt
-- cors
-- dotenv
-- Joi
-- JSONWebToken
-- Multer
-- PostgreSQL
+- React
+- Socket.IO
+- Sass
+- React-router
+- Semantic-ui-react
 
 ## Comment lancer le projet
 
-1. Assurez-vous d'avoir installé les dépendances requises en utilisant la commande `npm install`
-2. Utilisez la commande `npm run dice` pour lancer le projet.
+Assurez-vous d'avoir installé les dépendances requises en utilisant la commande `npm install`
+
